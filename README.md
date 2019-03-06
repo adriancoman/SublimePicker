@@ -30,25 +30,25 @@ Version 2 allows date-range selection using `SublimeOptions#setCanPickDateRange(
 Date range selection:
 
 <p align="center">
-<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/date_picker_date_range_v2.png?raw=true" width="497" height="1000" />
+<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/date_picker_date_range_v2.png?raw=true" width="248" height="500" />
 </p>
 
 Landscape:
 
 <p align="center">
-<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/date_picker_date_range_land_v2.png?raw=true" width="800" height="397" />
+<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/date_picker_date_range_land_v2.png?raw=true" width="400" height="198" />
 </p>
 
 Date range selection spanning multiple months:
 
 <p align="center">
-<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/date_picker_date_range_spanned_v2.png?raw=true" width="497" height="1000" />
+<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/date_picker_date_range_spanned_v2.png?raw=true" width="248" height="500" />
 </p>
 
 Button at bottom-left corner can be used to switch to **TimePicker**: 
 
 <p align="center">
-<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/time_picker_v2.png?raw=true" width="497" height="1000" />
+<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/time_picker_v2.png?raw=true" width="248" height="500" />
 </p>
 
 Landscape:
