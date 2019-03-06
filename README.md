@@ -93,7 +93,49 @@ Results of the selection in **sample application** (date range):
 <img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/sampler_results_date_range_v2.png?raw=true" width="497" height="1000" />
 </p>
 
-**How-to**s will be added in a day or two...
+**How-to**
+
+Whenever you need to create the dialog you call:
+
+    SublimePickerFragment pickerFrag = new SublimePickerFragment();
+	pickerFrag.setCallback(mFragmentCallback);
+
+	// Options
+	Pair<Boolean, SublimeOptions> optionsPair = getOptions();
+
+	Bundle bundle = new Bundle();
+	bundle.putParcelable("SUBLIME_OPTIONS", optionsPair.second);
+	pickerFrag.setArguments(bundle);
+
+	pickerFrag.setStyle(DialogFragment.STYLE_NO_TITLE, 0);
+	pickerFrag.show(getSupportFragmentManager(), "SUBLIME_PICKER");
+
+the getOptions method is this:
+
+    Pair<Boolean, SublimeOptions> getOptions() {
+        SublimeOptions options = new SublimeOptions();
+        int displayOptions = 0;
+
+        displayOptions |= SublimeOptions.ACTIVATE_DATE_PICKER;
+        displayOptions |= SublimeOptions.ACTIVATE_TIME_PICKER;
+        displayOptions |= SublimeOptions.ACTIVATE_RECURRENCE_PICKER;
+
+        //decide what kind of pickers to show
+        options.setPickerToShow(SublimeOptions.Picker.DATE_PICKER);
+        options.setPickerToShow(SublimeOptions.Picker.TIME_PICKER);
+        options.setPickerToShow(SublimeOptions.Picker.REPEAT_OPTION_PICKER);
+
+        options.setDisplayOptions(displayOptions);
+
+        // Enable/disable the date range selection feature
+        options.setCanPickDateRange(cbAllowDateRangeSelection.isChecked());
+
+        //enable alternate date selection
+        options.setAlternateSelectionMode(cbAlternateSelection.isChecked());
+
+        // If 'displayOptions' is zero, the chosen options are not valid
+        return new Pair<>(displayOptions != 0 ? Boolean.TRUE : Boolean.FALSE, options);
+    }
 
 License
 -------
