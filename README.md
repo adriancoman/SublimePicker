@@ -54,43 +54,43 @@ Button at bottom-left corner can be used to switch to **TimePicker**:
 Landscape:
 
 <p align="center">
-<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/time_picker_land_v2.png?raw=true" width="800" height="397" />
+<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/time_picker_land_v2.png?raw=true" width="400" height="198" />
 </p>
 
 The overflow button at top-right opens the **RecurrencePicker**:
 
 <p align="center">
-<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/recurrence_picker_v2.png?raw=true" width="497" height="1000" />
+<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/recurrence_picker_v2.png?raw=true" width="248" height="500" />
 </p>
 
 Choosing **Custom...** from this menu brings you to **RecurrenceOptionCreator**:
 
 <p align="center">
-<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/recurrence_option_creator_v2.png?raw=true" width="497" height="1000" />
+<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/recurrence_option_creator_v2.png?raw=true" width="248" height="500" />
 </p>
 
 Picking **Until a date** from the bottom spinner & clicking on the date shows a stripped down version of DatePicker:
 
 <p align="center">
-<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/recurrence_option_creator_end_date_v2.png?raw=true" width="497" height="1000" />
+<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/recurrence_option_creator_end_date_v2.png?raw=true" width="248" height="500" />
 </p>
 
 **Sample Application**:
 
 <p align="center">
-<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/sampler_v2.png?raw=true" width="497" height="1000" />
+<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/sampler_v2.png?raw=true" width="248" height="500" />
 </p>
 
 Results of the selection in **sample application** (single date):
 
 <p align="center">
-<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/sampler_results_single_date_v2.png?raw=true" width="497" height="1000" />
+<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/sampler_results_single_date_v2.png?raw=true" width="248" height="500" />
 </p>
 
 Results of the selection in **sample application** (date range):
 
 <p align="center">
-<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/sampler_results_date_range_v2.png?raw=true" width="497" height="1000" />
+<img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/sampler_results_date_range_v2.png?raw=true" width="248" height="500" />
 </p>
 
 **How-to**
